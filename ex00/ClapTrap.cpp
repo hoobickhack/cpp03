@@ -6,13 +6,13 @@
 /*   By: isouaidi <isouaidi@student.42nice.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/06/12 16:19:10 by isouaidi          #+#    #+#             */
-/*   Updated: 2024/06/13 15:39:28 by isouaidi         ###   ########.fr       */
+/*   Updated: 2024/06/17 16:19:34 by isouaidi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ClapTrap.hpp"
 
-ClapTrap :: ClapTrap(std::string name): name(name), Hit_points(10), Energy_points(10), Attack_damage(0){
+ClapTrap :: ClapTrap(const std::string name): name(name), Hit_points(10), Energy_points(10), Attack_damage(0){
 	std::cout << "Call constructor : " << this->name << std::endl;
 }
 

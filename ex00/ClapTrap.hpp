@@ -6,7 +6,7 @@
 /*   By: isouaidi <isouaidi@student.42nice.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/06/12 20:29:48 by isouaidi          #+#    #+#             */
-/*   Updated: 2024/06/12 20:29:50 by isouaidi         ###   ########.fr       */
+/*   Updated: 2024/06/17 16:01:58 by isouaidi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,7 +24,7 @@ private:
 	int Attack_damage;
 public:
 	ClapTrap();
-	ClapTrap(std::string name);
+	ClapTrap(const std::string name);
 	ClapTrap(const ClapTrap &instance);
 	ClapTrap& operator=(const ClapTrap &instance);
 	~ClapTrap();

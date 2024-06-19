@@ -1,4 +1,4 @@
-SRCS = main.cpp ClapTrap.cpp
+SRCS = main.cpp ClapTrap.cpp ScavTrap.cpp
 
 OBJS = ${SRCS:.cpp=.o}
 NAME = a.out
@@ -20,7 +20,7 @@ GREEN = \033[38;5;85m
 
 all: ${NAME}
 
-${NAME}: ${OBJS}
+${NAME}:${OBJS}
 	@${CC} ${CFLAGS} ${OBJS} -o ${NAME}
 	@echo "\n ${GRAS}${RED}Exercie COMPILÉ 👏${RESET}\n"
 
